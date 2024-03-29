@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DFB7C68B2BB76DBC00E3E05F /* GuessingGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB7C68A2BB76DBC00E3E05F /* GuessingGameApp.swift */; };
-		DFB7C68D2BB76DBC00E3E05F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB7C68C2BB76DBC00E3E05F /* ContentView.swift */; };
+		DFB7C68D2BB76DBC00E3E05F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB7C68C2BB76DBC00E3E05F /* GameView.swift */; };
 		DFB7C68F2BB76DBD00E3E05F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB7C68E2BB76DBD00E3E05F /* Assets.xcassets */; };
 		DFB7C6922BB76DBD00E3E05F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB7C6912BB76DBD00E3E05F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		DFB7C6872BB76DBC00E3E05F /* GuessingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB7C68A2BB76DBC00E3E05F /* GuessingGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessingGameApp.swift; sourceTree = "<group>"; };
-		DFB7C68C2BB76DBC00E3E05F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFB7C68C2BB76DBC00E3E05F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		DFB7C68E2BB76DBD00E3E05F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFB7C6912BB76DBD00E3E05F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				DFB7C68A2BB76DBC00E3E05F /* GuessingGameApp.swift */,
-				DFB7C68C2BB76DBC00E3E05F /* ContentView.swift */,
+				DFB7C68C2BB76DBC00E3E05F /* GameView.swift */,
 				DFB7C68E2BB76DBD00E3E05F /* Assets.xcassets */,
 				DFB7C6902BB76DBD00E3E05F /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFB7C68D2BB76DBC00E3E05F /* ContentView.swift in Sources */,
+				DFB7C68D2BB76DBC00E3E05F /* GameView.swift in Sources */,
 				DFB7C68B2BB76DBC00E3E05F /* GuessingGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
